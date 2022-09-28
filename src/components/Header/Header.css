@@ -1,0 +1,9 @@
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(87, 87, 241);
+}
+.nav-items div{
+    font-size: 40px;
+}
