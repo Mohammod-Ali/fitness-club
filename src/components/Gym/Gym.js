@@ -11,6 +11,10 @@ const Gym = () => {
         .then(data => setCarts(data))
     },[])
 
+    const handleClick = (cart) =>{
+        console.log(cart);
+      }
+
     return (
         <div className='gym-container'>
             <div className="exercise-container">
@@ -18,6 +22,7 @@ const Gym = () => {
                     carts.map(cart => <Exercise
                     cart={cart}
                     key={cart.id}
+                    handleClick={handleClick}
                     ></Exercise>)
                 }
             </div>
