@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Damble",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "age": "18-35",
+    "id":1,
+    "time": 30
+  },
+  {
+    "name": "Damble",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "age": "18-35",
+    "id":2,
+    "time": 30
+  },
+  {
+    "name": "Damble",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "age": "18-35",
+    "id":3,
+    "time": 30
+  },
+  {
+    "name": "Damble",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "age": "18-35",
+    "id":4,
+    "time": 30
+  },
+  {
+    "name": "Damble",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "age": "18-35",
+    "id":5,
+    "time": 30
+  },
+  {
+    "name": "Damble",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "age": "18-35",
+    "id":6,
+    "time": 30
+  }
+]
