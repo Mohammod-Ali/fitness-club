@@ -10,6 +10,8 @@
     gap: 45px;
 }
 
+
+
 /* for tablet divice */
 @media only screen and (min-width: 689px) and ( max-width: 1100px) {
     .exercise-container{

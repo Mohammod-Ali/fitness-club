@@ -1,33 +1,38 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Exercise from '../Exercise/Exercise';
 import './Gym.css'
 
 const Gym = () => {
-    const [carts, setCarts] = useState([])
+    const [accessories, setAccessories] = useState([])
+    const [cart, setCart] = useState([])
 
     useEffect(()=>{
         fetch('exercise.json')
         .then(res => res.json())
-        .then(data => setCarts(data))
+        .then(data => setAccessories(data))
     },[])
 
-    const handleClick = (cart) =>{
-        console.log(cart);
+    const handleClick = (accessory) =>{
+        const newCart = [...cart, accessory]
+        setCart(newCart)
       }
 
     return (
         <div className='gym-container'>
             <div className="exercise-container">
                 {
-                    carts.map(cart => <Exercise
-                    cart={cart}
-                    key={cart.id}
+                    accessories.map(accessory => <Exercise
+                    accessory={accessory}
+                    key={accessory.id}
                     handleClick={handleClick}
                     ></Exercise>)
                 }
             </div>
             <div className="activity-container">
-                <h1>this is activity</h1>
+                <Cart
+                cart={cart}
+                ></Cart>
             </div>
         </div>
     );
