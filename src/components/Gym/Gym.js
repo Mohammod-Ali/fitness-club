@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
-import Header from '../Header/Header';
 import './Gym.css'
 
 const Gym = () => {
@@ -15,7 +14,6 @@ const Gym = () => {
     return (
         <div className='gym-container'>
             <div className="exercise-container">
-                <Header></Header>
                 {
                     carts.map(cart => <Exercise
                     cart={cart}

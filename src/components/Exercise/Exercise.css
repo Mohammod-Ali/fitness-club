@@ -1,0 +1,23 @@
+.cart{
+    width: 250px;
+    height: 460px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+.cart img{
+    width: 235px;
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.btn-cart{
+    width: 100%;
+    background-color: rgb(94, 94, 242);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn-cart:hover{
+    background-color: rgb(63, 17, 249);
+}
