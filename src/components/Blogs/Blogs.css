@@ -1,0 +1,15 @@
+.blogs{
+    background-color: rgb(239, 243, 255);
+    padding-top: 20px;
+    padding: 10px;
+}
+.blogs-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blogs-container div{
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 10px;
+}
