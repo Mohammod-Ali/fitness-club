@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Break from "../Break/Break";
 import "./Cart.css";
 
@@ -13,6 +15,10 @@ const Cart = ({ cart }) => {
 
   const btnHandle = (singleT) => {
     setTimes(singleT);
+  };
+
+  const diffToast = () => {
+    toast('Congratulations, you are done your activity');
   };
 
   return (
@@ -45,17 +51,29 @@ const Cart = ({ cart }) => {
       <div className="exercise">
         <h3>Exercise Details</h3>
         <div className="exp-time">
-        <h5>Exercise time: </h5>
-        <h6>{time}minute</h6>
+          <h5>Exercise time: </h5>
+          <h6>{time}minute</h6>
         </div>
         <div className="exp-time">
-        <h5>Break time: </h5>
-        <h6>{times}minute</h6>
+          <h5>Break time: </h5>
+          <h6>{times}minute</h6>
         </div>
       </div>
-      <button className="activity-btn">
-      Activity Completed
+      <button onClick={diffToast} className="activity-btn">
+        Activity Completed
       </button>
+
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      ></ToastContainer>
     </div>
   );
 };
