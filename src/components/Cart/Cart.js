@@ -15,8 +15,10 @@ const Cart = ({ cart }) => {
 
   useEffect(() => {
     const previousTime = localStorage.getItem("breakTime");
-    const num = parseFloat(previousTime);
-    setTimes(num);
+    if(previousTime){
+      const num = parseFloat(previousTime);
+      setTimes(num);
+    }
   }, []);
   
   const btnHandle = (singleT) => {
