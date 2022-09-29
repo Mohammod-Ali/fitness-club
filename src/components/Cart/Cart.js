@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Break from "../Break/Break";
@@ -10,15 +10,23 @@ const Cart = ({ cart }) => {
     time = time + exercise.time;
   }
 
-  const breakTime = ["10m", "15m", "20m", "25m", "30m"];
+  const breakTime = [10, 15, 20, 25, 30];
   const [times, setTimes] = useState(0);
 
+  useEffect(() => {
+    const previousTime = localStorage.getItem("breakTime");
+    const num = parseFloat(previousTime);
+    setTimes(num);
+  }, []);
+  
   const btnHandle = (singleT) => {
+
     setTimes(singleT);
+    localStorage.setItem("breakTime", singleT);
   };
 
   const diffToast = () => {
-    toast('Congratulations, you are done your activity');
+    toast("Congratulations, you are done your activity");
   };
 
   return (

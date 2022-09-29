@@ -24,6 +24,9 @@
 }
 /* for mobile device */
 @media only screen and (max-width: 688px) {
+    .gym-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .exercise-container{
         grid-template-columns: repeat(1, 1fr);
     }

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Blogs from '../Blogs/Blogs';
 import Cart from '../Cart/Cart';
 import Exercise from '../Exercise/Exercise';
 import './Gym.css'
@@ -29,7 +28,6 @@ const Gym = () => {
                     handleClick={handleClick}
                     ></Exercise>)
                 }
-                {/* <Blogs></Blogs> */}
             </div>
             <div className="activity-container">
                 <Cart
