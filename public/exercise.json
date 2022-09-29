@@ -1,50 +1,50 @@
 [
   {
-    "name": "Damble",
+    "name": "Dumbbell",
     "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight...",
     "age": "18-35",
     "id":1,
     "time": 30
   },
   {
-    "name": "Damble",
-    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
-    "age": "18-35",
+    "name": "Treadmill",
+    "img": "https://virtuagym.b-cdn.net/wp-content/uploads/2019/12/treadmills-in-gym-running-equipment-.jpg",
+    "details": "For beginners who are looking to lose some weight, the treadmill is the way to go. A fantastic...",
+    "age": "18-55",
     "id":2,
-    "time": 30
+    "time": 25
   },
   {
-    "name": "Damble",
-    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "name": "Stationary bicycle",
+    "img": "https://media.istockphoto.com/photos/group-of-people-training-at-the-gym-in-a-exercising-class-picture-id1411330438?b=1&k=20&m=1411330438&s=170667a&w=0&h=RpA0IqYH1jRiCPO0q0eNRTaYsZ5Y8StWk5cGJZrjttE=",
+    "details": "Also a great form of cardiovascular training, the stationary bike is an alternative to the treadmill for...",
     "age": "18-35",
     "id":3,
     "time": 30
   },
   {
-    "name": "Damble",
-    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
-    "age": "18-35",
+    "name": "Barbell Set",
+    "img": "https://images.unsplash.com/photo-1526403646408-57b94dc15399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhcmJlbGwlMjBzZXRiaWN5Y2xlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Younger athletes also tend to focus on heavy strength training and do not just aim for simple weight loss...",
+    "age": "18-40",
     "id":4,
-    "time": 30
+    "time": 15
   },
   {
-    "name": "Damble",
-    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
+    "name": "Rowing machine",
+    "img": "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJvd2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "details": "Athletes can do a lot with a total-body rowing machine, especially a strong aerobic workout...",
     "age": "18-35",
     "id":5,
-    "time": 30
+    "time": 10
   },
   {
-    "name": "Damble",
-    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "details": "Dumbbells are a great way to burn calories and build muscle, hence putting you in a great position to lose weight.",
-    "age": "18-35",
+    "name": "Ellipticals",
+    "img": "https://media.istockphoto.com/photos/group-of-people-at-the-gym-on-the-elliptical-machine-picture-id954755046?b=1&k=20&m=954755046&s=170667a&w=0&h=1Yk2sFgKScpbfsx5XSoQgb7IEEcI72SUMG6eimxFWIw=",
+    "details": "Ellipticals are also non-impact in nature which means the back, knees, and ankles will all be protected...",
+    "age": "18-45",
     "id":6,
-    "time": 30
+    "time": 20
   }
 ]

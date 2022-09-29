@@ -9,7 +9,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
-
+.activity-container{
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 8px;
+}
 
 
 /* for tablet divice */

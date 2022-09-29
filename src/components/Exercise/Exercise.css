@@ -1,11 +1,11 @@
-.cart{
+.container{
     width: 250px;
     height: 460px;
     background-color: white;
     padding: 12px;
     border-radius: 10px;
 }
-.cart img{
+.container img{
     width: 228px;
     height: 160px;
     border-radius: 10px;
@@ -13,7 +13,7 @@
 }
 .btn-cart{
     width: 100%;
-    background-color: rgb(94, 94, 242);
+    background-color: rgb(137, 137, 254);
     color: white;
     border: none;
     border-radius: 10px;
