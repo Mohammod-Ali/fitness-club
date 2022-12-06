@@ -1,10 +1,12 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project  [Live site](https://ultra-fitness-club.netlify.app/).
 
-## Available Scripts
+## Bullet point
 
-In the project directory, you can run:
+1. Users can add their exercise time 
+2. Users can add their Break time 
+3. When the user click the activity btn then a pop up message show for user
 
 ### `npm start`
 

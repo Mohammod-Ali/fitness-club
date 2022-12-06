@@ -22,7 +22,6 @@ const Cart = ({ cart }) => {
   }, []);
   
   const btnHandle = (singleT) => {
-
     setTimes(singleT);
     localStorage.setItem("breakTime", singleT);
   };
@@ -49,11 +48,11 @@ const Cart = ({ cart }) => {
       <div className="btn-break">
         <h3>Add a break</h3>
         <div>
-          {breakTime.map((singleTime) => (
+          {breakTime.map((singleTime, i) => (
             <Break
               btnHandle={btnHandle}
               singleTime={singleTime}
-              key={singleTime}
+              key={i}
             ></Break>
           ))}
         </div>
